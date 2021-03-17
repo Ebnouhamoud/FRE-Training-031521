@@ -1,0 +1,127 @@
+/* .block {
+  display: block;
+}
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  border-style: none;
+  border-color: rgb(211, 211, 211);
+}
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 40vw;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+form > * {
+  margin: 1em;
+  height: 4em;
+  margin-bottom: 0.5em;
+  border-radius: 0.5em;
+  border-color: rgb(189, 188, 188);
+}
+
+
+
+.g-1 {
+  flex: 1 1 20%;
+  min-width: 7em;
+}
+
+.g-2 {
+  flex: 1 1 45%;
+  flex-shrink: 2;
+}
+.g-3 {
+  flex: 1 1 73%;
+  align-items: center;
+}
+
+.g-4 {
+  flex: 1 1 100%;
+}
+
+.inline {
+  display: inline;
+} 
+input {
+  border: 1px gray solid;
+  height: 4em;
+  padding-left: 1em;
+  font-size: 1rem;
+}
+
+input:active, input:focus {
+  border-radius: 0.5em;
+  box-shadow: 0 0 10px rgb(11, 90, 174);
+  outline: none;
+}
+
+input::placeholder {
+  font-size: large;
+}
+input:focus {
+  
+}
+
+h1 {
+  text-align: center;
+}
+
+form > div {
+  display: flex;
+  align-items: center;
+}
+
+.check {
+  height: auto;
+}
+
+
+.inline {
+  height: auto;
+}
+.inline + p {
+  height: auto;
+}
+
+p + button {
+  background-color: rgb(35, 157, 210);
+  color: rgb(252, 252, 252);
+  font-size: large;
+  max-width: 49%;
+  height: 3em;
+}
+
+button + button {
+  background-color: rgb(35, 210, 91);
+  color: rgb(252, 252, 252);
+  font-size: large;
+  max-width: 49%;
+  height: 3em;
+  margin-left: 0;
+}
+
+span  {
+  background-color: rgb(35, 157, 210);
+  color: white;
+  padding: 3px;
+  border-radius: 0.3em;
+}
+
+a {
+  text-decoration: none;
+}
