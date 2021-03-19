@@ -1,0 +1,48 @@
+.card-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: auto;
+}
+
+.card-box > * {
+  flex: 1 1 40%;
+  margin-bottom: 2em;
+  border: solid rgb(224, 224, 224);
+  border-width: 0.3em 0.3em 0.5em 0.3em;
+  border-radius: 0em 1em 0em 1em;
+  margin: 1em;
+  min-height: 10em;
+  padding: 1em;
+}
+
+.card-box > *:hover {
+  border-color:  rgba(224, 224, 224, 0.342);
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card > :first-child {
+  color: var(--blue);
+}
+
+.card > * {
+  margin: 0.2em;
+}
+
+.card > div.read-more {
+  flex: 1 1 100%;
+  align-content: space-around;
+  position: relative;
+}
+
+.card > div.read-more > a {
+  position: absolute;
+  bottom: 0;
+  color: var(--blue);
+}
