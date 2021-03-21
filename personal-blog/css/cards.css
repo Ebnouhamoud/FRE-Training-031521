@@ -48,13 +48,41 @@
   color: var(--blue);
 }
 
+.card > img {
+  width: 100%;
+  height: 50%;
+  border: solid 1px var(--gray);
+  background-color: black;
+  margin-bottom: 0;
+  padding-bottom:0 ;
+  border-bottom: none ;
+}
+.card > figcaption {
+  background-color: black;
+  display: flex;
+  color: antiquewhite;
+  width: 100.8%;
+  margin-top: 0;
+  margin-left: 3px;
+  padding:0 ;
+  /* align-content: center; */
+  justify-content: space-around;
+}
+
 @media (max-width:747px) {
   .card-box {
     width: 100%;
   }
+  .card {
+    /* height: 100%; */
+  }
   .card-box > *  {
     margin: 2em;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
+  }
+   div.read-more {
+    display: block;
+    /* background-color: red; */
   }
 }
