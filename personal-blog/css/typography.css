@@ -5,7 +5,24 @@ code {
   color: brown;
 }
 
-p {
-  
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+p, li {
+  font-size: 0.9rem;
+  color: rgb(68, 67, 67);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
