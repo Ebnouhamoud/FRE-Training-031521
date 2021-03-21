@@ -14,9 +14,10 @@ li > h1 {
   font-size: 1.8rem;
 }
 
-ul {
+nav > ul {
   display: flex;
   justify-content: space-between;
+  list-style: none;
 }
 li > a {
   color: var(--gray);
