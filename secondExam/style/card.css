@@ -1,0 +1,47 @@
+.cards-box {
+ display: flex;
+ flex-wrap: wrap;
+ width: 80%;
+ gap:2em;
+ margin: 2em auto;
+ 
+}
+
+.card {
+  background-color: var(--orange);
+  height: 10em;
+  flex: 1 1 20%;
+  display:flex;
+  gap: 0.5em;
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+.card> * {
+  width: 50%;
+}
+.card:hover {
+  box-shadow: 0 4px 8px 0 var(--orange), 0 6px 20px 0 var(--orange);
+  flex: 1 1 25%;
+  height: 13em;
+}
+.card > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+a{
+  text-decoration: none;
+  background-color: var(--light-gray);
+  border: solid;
+  width:3em;
+  text-align: center;
+  color: black;
+  border-radius: 1em;
+  margin-bottom: 2px;
+}
+.play {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 90%;
+}

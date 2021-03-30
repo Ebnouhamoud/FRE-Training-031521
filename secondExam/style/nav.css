@@ -1,0 +1,37 @@
+header {
+  height: 3em;
+  background-color: var(--green);
+  display: block;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  /* height: 10em; */
+  padding-top: 0.7em;
+}
+.search-bar-box {
+  background-color: var(--light-gray);
+  border-radius:1em;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+.search-bar {
+  width: 90%;
+  background-color: var(--light-gray);
+  display: flex;
+  height: 1.5em;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+input {
+  background-color: var(--light-gray);
+  height: 100%;
+  border: none;
+  flex: 1 1 70%;
+}
+input:active,input:focus {
+  outline: none;
+  flex: 1 1 80;
+}
