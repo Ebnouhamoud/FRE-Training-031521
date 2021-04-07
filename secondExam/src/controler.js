@@ -24,11 +24,12 @@ class Controler {
     while(parent.firstChild){
       parent.removeChild(parent.firstChild)
     }
-    apiService.getArtist(artist).then(({results})=> {
-      console.log(results)
-      results.forEach(ele => {
+    apiService.getArtist(artist).then((results)=> {
+
+      results.map(ele => {
         let htmlEle = new Card(ele.artworkUrl100,ele.artistName,ele.releseDate,ele.collectionName,ele.primaryGenreName,ele.collectionViewUrl,ele.collectionId)
-        htmlEle.render(parent)
+        htmlEle.generatCard()
+        return el 
       });
     })
   }

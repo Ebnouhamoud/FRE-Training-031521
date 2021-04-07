@@ -39,6 +39,8 @@
   box-shadow: 0 4px 8px 0 var(--orange), 0 6px 20px 0 var(--orange);
   flex: 1 1 25%;
   height: 13em;
+  position: relative;
+  z-index: 2;
 }
 .card > div {
   display: flex;

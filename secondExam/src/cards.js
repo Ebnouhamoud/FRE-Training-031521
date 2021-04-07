@@ -7,6 +7,7 @@ class Card {
     this.ganra = ganra;
     this.linkToAlbum = linkToAlbum
     this.id = collectionId
+    this.ele = null
   }
   
   generatCard () {
@@ -23,9 +24,12 @@ class Card {
           <a href="${this.linkToAlbum}"> Play </a>
         </div>
       </div>`
-    return el
+      this.el = el
+    return el 
   }
-
+  getElement () {
+    return this.ele
+  }
   render (parent) {
     let card = this.generatCard()
     parent.appendChild(card)
