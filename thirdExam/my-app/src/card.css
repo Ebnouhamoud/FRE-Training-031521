@@ -1,0 +1,39 @@
+
+.card > * {
+  margin: 1em;
+
+}
+.card {
+  border-radius: 1em;
+}
+.card > *:not(:last-child) {
+  margin-bottom: 1em;
+  outline: none;
+}
+
+
+.red {
+ box-shadow: 0.5em 0.5em 1em 1em rgb(151, 55, 55);
+}
+
+.green  {
+  box-shadow: 0.5em 0.5em 1em 1em rgb(63, 177, 59);
+  
+}
+
+.black  {
+  
+  box-shadow: 0.5em 0.5em 1em 1em rgb(0, 0, 0);
+}
+
+.blue  {
+  box-shadow: 0.5em 0.5em 1em 1em rgb(47, 87, 172);
+
+}
+button {
+  width: 7em;
+  height: 2.5em;
+  border-radius: 1em;
+  outline: none;
+  color: white;
+}

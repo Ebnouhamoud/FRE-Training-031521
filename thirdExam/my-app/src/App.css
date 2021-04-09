@@ -1,0 +1,16 @@
+
+.App {
+  width: 100%;
+}
+
+.App > header {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 3em;
+  color: red;
+}
+
+.App:last-child {
+  width: 80%;
+  margin: auto;
+}
